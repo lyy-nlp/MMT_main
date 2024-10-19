@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4ceda82b-78a2-4a3b-a053-430c5eb86b3e" name="变更" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/data-checkpoint.sh" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/data-generate.sh" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fairseq/criterions/label_smoothed_cross_entropy.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fairseq/models/transformer.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fairseq/modules/transformer_layer.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fairseq_cli/generate.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/generate.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/run.sh" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2WHHoBV7dJJJ1qf6itDqs35nAOk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "credentialsType com.jetbrains.python.remote.PyCreateRemoteInterpreterDialog$PyCreateRemoteSdkForm": "SSH 配置",
+    "last_opened_file_path": "G:/Code/ConVisPiv-MNMT-main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="PyDebuggerOptionsProvider">
+    <option name="mySupportGeventDebugging" value="true" />
+  </component>
+  <component name="RunManager" selected="Python.generate">
+    <configuration name="average_checkpoints" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="new-fairseq" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/average_checkpoints.py" />
+      <option name="PARAMETERS" value="--inputs /home/lyy/Gating2-fairseq-inter2/results --num-epoch-checkpoints 15 --output /home/lyy/Gating2-fairseq-inter2/results/model.pt" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="generate (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="new-fairseq" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="generate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="new-fairseq" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fairseq_cli" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fairseq_cli/generate.py" />
+      <option name="PARAMETERS" value="/gb/lyy/data-after-preprocess --path /gb/lyy/result/en-de-9/model.pt --source-lang en --target-lang de --beam 5 --num-workers 12 --batch-size 128 --results-path /gb/lyy/result/en-de-9 --remove-bpe --fp16" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="new-fairseq" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
+      <option name="PARAMETERS" value="/gb/lyy/data-after-preprocess --arch transformer_iwslt_de_en transformer_iwslt_de_en_nmt --share-decoder-input-output-embed --clip-norm 0 --optimizer adam --reset-optimizer --lr 0.005 --source-lang en --target-lang de --max-tokens 4096 --no-progress-bar --log-interval 100 --weight-decay 0.2 --criterion label_smoothed_cross_entropy --label-smoothing 0.2 --lr-scheduler inverse_sqrt --max-update 8000 --warmup-updates 2000 --warmup-init-lr 1e-07 --update-freq 4 --adam-betas 0.9,0.98 --keep-last-epochs 30 --dropout 0.3 --tensorboard-logdir /home/lyy/Gating2-fairseq-inter2/results2/en-de-bpe/bl_log1 --log-format simple --save-dir /home/lyy/Gating2-fairseq-inter2/results2 --eval-bleu --eval-bleu-remove-bpe --patience 15 --fp16 --encoder-embed-dim 128 --encoder-ffn-embed-dim 256 --decoder-embed-dim 128 --decoder-ffn-embed-dim 256 --encoder-layers 4 --decoder-layers 4 --encoder-attention-heads 4 --decoder-attention-heads 4" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="data-generate.sh" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/data-generate.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.generate (1)" />
+      <item itemvalue="Python.average_checkpoints" />
+      <item itemvalue="Python.generate" />
+      <item itemvalue="Python.train" />
+      <item itemvalue="Shell Script.data-generate.sh" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.generate" />
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.generate (1)" />
+        <item itemvalue="Python.average_checkpoints" />
+        <item itemvalue="Python.generate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="4ceda82b-78a2-4a3b-a053-430c5eb86b3e" name="变更" comment="" />
+      <created>1696382764568</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696382764568</updated>
+      <workItem from="1696382767520" duration="39000" />
+      <workItem from="1696382943486" duration="336000" />
+      <workItem from="1696383458897" duration="928000" />
+      <workItem from="1696384415404" duration="1960000" />
+      <workItem from="1696387930784" duration="29016000" />
+      <workItem from="1696573381038" duration="14521000" />
+      <workItem from="1696590805372" duration="14795000" />
+      <workItem from="1696744638300" duration="20842000" />
+      <workItem from="1696826173831" duration="21347000" />
+      <workItem from="1696856561308" duration="276000" />
+      <workItem from="1696856865184" duration="128000" />
+      <workItem from="1696857043385" duration="1317000" />
+      <workItem from="1696900261570" duration="47189000" />
+      <workItem from="1697163785485" duration="19616000" />
+      <workItem from="1697288063039" duration="45913000" />
+      <workItem from="1697458942466" duration="64621000" />
+      <workItem from="1697716096157" duration="48000" />
+      <workItem from="1697716163721" duration="8339000" />
+      <workItem from="1697766461469" duration="22828000" />
+      <workItem from="1697807216712" duration="83054000" />
+      <workItem from="1698383428366" duration="14142000" />
+      <workItem from="1698455114226" duration="37897000" />
+      <workItem from="1698569315499" duration="2085000" />
+      <workItem from="1698575242171" duration="20296000" />
+      <workItem from="1698932973203" duration="2666000" />
+      <workItem from="1698976173967" duration="17185000" />
+      <workItem from="1699065952161" duration="16000" />
+      <workItem from="1699087452912" duration="579000" />
+      <workItem from="1699090432413" duration="5025000" />
+      <workItem from="1699105743905" duration="2307000" />
+      <workItem from="1699173372630" duration="132000" />
+      <workItem from="1699173604834" duration="3875000" />
+      <workItem from="1699237558038" duration="5892000" />
+      <workItem from="1699272360370" duration="5304000" />
+      <workItem from="1699278517300" duration="8370000" />
+      <workItem from="1699334506356" duration="1324000" />
+      <workItem from="1699445555171" duration="1368000" />
+      <workItem from="1699534210243" duration="611000" />
+      <workItem from="1699581587333" duration="6404000" />
+      <workItem from="1709708126855" duration="2269000" />
+      <workItem from="1709714888539" duration="1564000" />
+      <workItem from="1709777098200" duration="433000" />
+      <workItem from="1709794094606" duration="780000" />
+      <workItem from="1709795179860" duration="142451000" />
+      <workItem from="1710551430671" duration="7153000" />
+      <workItem from="1710592300629" duration="28495000" />
+      <workItem from="1710858647810" duration="147000" />
+      <workItem from="1712404209349" duration="3033000" />
+      <workItem from="1712544295953" duration="638000" />
+      <workItem from="1712820533961" duration="2188000" />
+      <workItem from="1713345976662" duration="1518000" />
+      <workItem from="1713414992923" duration="881000" />
+      <workItem from="1713526581148" duration="1385000" />
+      <workItem from="1713536266451" duration="32000" />
+      <workItem from="1713609954082" duration="39000" />
+      <workItem from="1713613912196" duration="5085000" />
+      <workItem from="1713620656049" duration="17930000" />
+      <workItem from="1713778102567" duration="35571000" />
+      <workItem from="1714009877670" duration="15509000" />
+      <workItem from="1714049209027" duration="9147000" />
+      <workItem from="1714116590436" duration="68000" />
+      <workItem from="1714116669932" duration="35000" />
+      <workItem from="1714116721466" duration="132694000" />
+      <workItem from="1715134266220" duration="66249000" />
+      <workItem from="1715935481801" duration="548000" />
+      <workItem from="1715936050491" duration="1756000" />
+      <workItem from="1715940819002" duration="495000" />
+      <workItem from="1715954002691" duration="707000" />
+      <workItem from="1715998615993" duration="81000" />
+      <workItem from="1716002368902" duration="1153000" />
+      <workItem from="1716780314234" duration="14000" />
+      <workItem from="1716795633272" duration="472000" />
+      <workItem from="1716817189574" duration="7000" />
+      <workItem from="1716962128732" duration="6953000" />
+      <workItem from="1716981712321" duration="3601000" />
+      <workItem from="1717487815603" duration="170000" />
+      <workItem from="1718281393275" duration="1018000" />
+      <workItem from="1718332934441" duration="1000" />
+      <workItem from="1720148755432" duration="1252000" />
+      <workItem from="1720413177455" duration="19997000" />
+      <workItem from="1720678130012" duration="10458000" />
+      <workItem from="1721047766151" duration="46060000" />
+      <workItem from="1721615114769" duration="62379000" />
+      <workItem from="1721817000377" duration="3260000" />
+      <workItem from="1721820455747" duration="7558000" />
+      <workItem from="1721873865013" duration="32307000" />
+      <workItem from="1722068524568" duration="14037000" />
+      <workItem from="1724295164470" duration="37000" />
+      <workItem from="1724483748098" duration="28994000" />
+      <workItem from="1724915431978" duration="105962000" />
+      <workItem from="1725706173861" duration="2000" />
+      <workItem from="1725941990600" duration="237000" />
+      <workItem from="1725946632156" duration="21000" />
+      <workItem from="1725971459180" duration="1307000" />
+      <workItem from="1726023863207" duration="3733000" />
+      <workItem from="1726106736880" duration="35064000" />
+      <workItem from="1728375479149" duration="4059000" />
+      <workItem from="1728625364801" duration="1216000" />
+      <workItem from="1728726003541" duration="1934000" />
+      <workItem from="1728883962686" duration="1322000" />
+      <workItem from="1728898519111" duration="7738000" />
+      <workItem from="1729158925276" duration="5797000" />
+      <workItem from="1729262546994" duration="6783000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fairseq_cli/preprocess.py</url>
+          <line>256</line>
+          <option name="timeStamp" value="491" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/AppData/Local/JetBrains/PyCharm2022.1/remote_sources/307722935/1197887122/torch/nn/modules/module.py</url>
+          <line>1519</line>
+          <option name="timeStamp" value="1216" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fairseq_cli/generate.py</url>
+          <line>276</line>
+          <option name="timeStamp" value="1965" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fairseq_cli/generate.py</url>
+          <line>277</line>
+          <option name="timeStamp" value="1968" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fairseq_cli/generate.py</url>
+          <line>278</line>
+          <option name="timeStamp" value="1975" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Gating2_fairseq$average_checkpoints.coverage" NAME="average_checkpoints 覆盖结果" MODIFIED="1699517445669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/Gating2_fairseq_inter2$generate.coverage" NAME="generate 覆盖结果" MODIFIED="1729161233841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fairseq_cli" />
+    <SUITE FILE_PATH="coverage/Double_fairseq$generate.coverage" NAME="generate 覆盖结果" MODIFIED="1699280088298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Composition_fairseq$train.coverage" NAME="train 覆盖结果" MODIFIED="1699174120644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Gating2_fairseq$train__1_.coverage" NAME="train (1) 覆盖结果" MODIFIED="1709709911883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fairseq_cli" />
+    <SUITE FILE_PATH="coverage/new_fairseq$generate.coverage" NAME="generate 覆盖结果" MODIFIED="1697031327478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Gating2_fairseq$train.coverage" NAME="train 覆盖结果" MODIFIED="1709794211500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/new_fairseq$train.coverage" NAME="train 覆盖结果" MODIFIED="1698643468677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/new_fairseq$average_checkpoints.coverage" NAME="average_checkpoints 覆盖结果" MODIFIED="1696923254327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/wxj_fairseq$generate.coverage" NAME="generate 覆盖结果" MODIFIED="1699096259374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/wxj_fairseq$average_checkpoints.coverage" NAME="average_checkpoints 覆盖结果" MODIFIED="1699099011573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/wxj_fairseq$train.coverage" NAME="train 覆盖结果" MODIFIED="1699173207251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Gating2_fairseq_inter$generate.coverage" NAME="generate 覆盖结果" MODIFIED="1712408145878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fairseq_cli" />
+    <SUITE FILE_PATH="coverage/Gating2_fairseq$generate.coverage" NAME="generate 覆盖结果" MODIFIED="1699517527935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Double_fairseq$train.coverage" NAME="train 覆盖结果" MODIFIED="1699280407265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Gating2_fairseq_inter$generate__1_.coverage" NAME="generate 覆盖结果" MODIFIED="1710820685621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fairseq_cli" />
+    <SUITE FILE_PATH="coverage/Composition_fairseq$average_checkpoints.coverage" NAME="average_checkpoints 覆盖结果" MODIFIED="1699277397840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/Gating2_fairseq_inter2$average_checkpoints.coverage" NAME="average_checkpoints 覆盖结果" MODIFIED="1713837897238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/new_fairseq$11.coverage" NAME="11 覆盖结果" MODIFIED="1697447902303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/new_fairseq$generate__1_.coverage" NAME="generate (1) 覆盖结果" MODIFIED="1697022348747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fairseq_cli" />
+    <SUITE FILE_PATH="coverage/Gating2_fairseq_inter2$train.coverage" NAME="train 覆盖结果" MODIFIED="1729149361438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/new_fairseq$preprocess__1_.coverage" NAME="preprocess (1) 覆盖结果" MODIFIED="1697523046589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fairseq_cli" />
+    <SUITE FILE_PATH="coverage/Gating2_fairseq_inter2$generate__1_.coverage" NAME="generate (1) 覆盖结果" MODIFIED="1713837987211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Gating1_fairseq$train.coverage" NAME="train 覆盖结果" MODIFIED="1699507290654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Double_fairseq$average_checkpoints.coverage" NAME="average_checkpoints 覆盖结果" MODIFIED="1699280072787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/wxj_fairseq$transformer.coverage" NAME="transformer 覆盖结果" MODIFIED="1699172330159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fairseq/models" />
+    <SUITE FILE_PATH="coverage/Gating1_fairseq$generate.coverage" NAME="generate 覆盖结果" MODIFIED="1699497902572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Composition_fairseq$generate.coverage" NAME="generate 覆盖结果" MODIFIED="1699278395581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Gating2_fairseq_inter$train.coverage" NAME="train 覆盖结果" MODIFIED="1713618125437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Gating1_fairseq$average_checkpoints.coverage" NAME="average_checkpoints 覆盖结果" MODIFIED="1699497894948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/new_fairseq$preprocess.coverage" NAME="preprocess 覆盖结果" MODIFIED="1698299224279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
